@@ -1,0 +1,1167 @@
+.card-body-main{
+  margin-top: 6vh;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 20px 20px;
+  /* min-height: fit-content; */
+}
+h1,h2,h3,h4,h5,h6{
+    color: black !important;
+  }
+.card-header{
+    background-color: none !important;
+  }
+  
+  /* .db{
+    display: none;
+  } */
+  
+  .animate {
+    opacity: 3 !important;
+  }
+  
+  /* .hom-coup-test ul li {
+     float: center !important;
+    } */
+  
+    .hom-coup-test ul {
+      justify-content: center !important;
+      display: flex !important;
+    }
+  
+    a {
+      color: black !important;
+      text-decoration: none !important;
+  }
+  
+   
+  
+  
+  
+  /* Basic header styling */
+  .hom-top {
+  position: relative;
+  background: #f8f8f8;
+  padding: 10px 0;
+  }
+  
+  .logo img.ic-logo {
+  width: 150px;
+  }
+  
+  
+  .navbar-logos{
+    font-size: 1.5rem !important;
+  }
+  
+  .logoss{
+    color: #0D6EFD;
+  }
+  
+  .navbar-center p{
+    color: white !important;
+  }
+  
+  
+  
+  .desktop-menu ul {
+  display: flex;
+  list-style: none;
+  gap: 15px;
+  }
+  
+  .desktop-menu ul li {
+  display: inline-block;
+  }
+  
+  .desktop-menu ul li a {
+  text-decoration: none;
+  color: #333;
+  }
+  
+  /* Profile section styling */
+  .al .head-pro {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  }
+  
+  .head-pro img {
+  width: 40px;
+  border-radius: 50%;
+  }
+  
+  /* Mobile menu icon styling */
+  .mob-menu .mobile-menu-icon img {
+  width: 24px;
+  cursor: pointer;
+  }
+  
+  /* Mobile sidebar styling */
+  .mobile-sidebar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 250px;
+  background: #333;
+  color: #fff;
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  transform: translateX(0);
+  transition: transform 0.3s ease;
+  }
+  
+  .mobile-sidebar-header {
+  padding: 15px;
+  display: flex;
+  justify-content: flex-end;
+  }
+  
+  .mobile-sidebar-header img {
+  width: 24px;
+  cursor: pointer;
+  }
+  
+  .mobile-sidebar-content {
+  padding: 20px;
+  }
+  
+  .mobile-sidebar-content ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  }
+  
+  .mobile-sidebar-content ul li {
+  margin-bottom: 15px;
+  }
+  
+  .mobile-sidebar-content ul li a {
+  color: #fff;
+  text-decoration: none;
+  }
+  
+  /* Hide desktop menu on small screens */
+  @media (max-width: 768px) {
+  .desktop-menu {
+    display: none;
+  }
+  }
+  
+  
+  /* #new-side{
+  display: none !important;
+  } */
+  
+  .slick-prev:hover, .slick-prev:focus, .slick-next:hover, .slick-next:focus {
+  color: rgba(255, 255, 255, 0.01) !important;
+  outline: none;
+  background: rgba(255, 153, 0, 0.52) !important;
+  }
+  
+  
+  .login, .db {
+  float: left;
+  width: 100%;
+  padding: 0px 0px 85px 0px;
+  margin-top: var(--mtop);
+  }
+  
+  
+  .db-nav {
+  background: #fff;
+  padding: 20px;
+  box-shadow: 0 1px 12px -2px #00000024;
+  border-radius: 10px;
+  margin: 58px 20px 50px 0 !important;
+  }
+  
+  
+  @media  (max-width: 480px) {
+  
+  
+  .db-nav {
+    flex-wrap: wrap;
+      display: flex;
+  }
+  
+  .db-nav-list{
+    overflow: scroll;
+  }
+  
+  #radio{
+    overflow: hidden;
+  }
+  
+  .db-pro-stat, .db-profile, .db-invoice {
+    overflow-x: scroll;
+  }
+  
+  }
+  
+  .db-pro-stat, .db-profile, .db-invoice {
+    /* overflow: hidden; */
+  
+  }
+  
+  #naving{
+  margin-left: 13vmax !important;
+  }
+  
+  .nav-link.active-link {
+    background-color: #007bff; /* Change this to your desired color */
+    color: white; /* Optional: Adjust text color for active link */
+  }
+  
+  /* Optional: Prevent hover effect from overriding active background */
+  .nav-link.active-link:hover {
+    background-color: #007bff !important; /* Ensure it stays active on hover */
+  }
+  
+  .nav{
+    margin-top: 40px;
+  }
+  
+  #table-margin-top{
+    margin-top: 80px !important;
+  }
+  
+  /* App.css */
+  .nav-link-active {
+  background-color: #e0e0e0 !important; /* Background color for active link */
+  color: #007bff !important; /* Text color for active link */
+  font-weight: bold; /* Bold text for active link */
+  border-radius: 4px; /* Optional: Rounded corners for active link */
+  padding: 8px 16px; /* Optional: Padding for active link */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
+  }
+  
+  
+  
+  /* #new-side{
+  display:none !important;
+  } */
+  
+  #logo{
+  font-weight: 600;
+  color: #007bff;
+  font-style: italic;
+  }
+  
+  .swiper-slide{
+  text-align: center;
+  border: 1px solid black;
+  padding: 5px;
+  box-shadow: 2px 2px 2px rgb(230, 228, 228);
+  
+  }
+  
+  .mySwiper{
+  margin: 2vmax 0;
+  
+  }
+  
+  .Nabvar{
+  background-color: #DEE7EC !important;
+  padding: 15px 0px !important;
+  }
+  
+  
+  .chat-page {
+  padding: 20px;
+  }
+  
+  .chat-header {
+  display: flex;
+  align-items: center;
+  }
+  
+  .chat-profile-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+  }
+  
+  .chat-messages {
+  background-color: #f7f7f7;
+  padding: 15px;
+  margin-top: 10px;
+  border-radius: 5px;
+  }
+  
+  .cta-3{
+  color: white !important;
+  }
+  
+  .cta-dark{
+  color: white !important;
+  
+  }
+  
+  .social-light i{
+  color: white !important;
+  }
+  
+  
+  .svg-inline--fa {
+  color: white !important;
+  display: var(--fa-display, inline-block);
+  height: 1em;
+  overflow: visible;
+  vertical-align: -0.125em;
+  }
+  
+  .login-path{
+  color: #559dd8 !important;
+  font-weight: 700 !important;
+  }
+  
+  /* #slides{
+  margin-right: 1vmax !important;
+  } */
+  
+  /* .slick-initialized .slick-slide {
+  margin-right: .5vmax !important;
+  } */
+  
+  /* src/styles.css */
+  .db-nav-list ul li .active-link {
+  background-color: #007bff; /* Customize the background color */
+  color: #fff; /* Text color for the active link */
+  padding: 10px;
+  border-radius: 5px;
+  }
+  
+  
+  /* ---------------------------Admin-dashboar.css----------- */
+  
+  /* Dashboard.css */
+  main {
+  min-height: 75vh;
+  }
+  
+  .navbar, footer {
+  z-index: 1;
+  }
+  
+  @media (max-width: 768px) {
+  .navbar-brand, .footer {
+    text-align: center;
+  }
+  }
+  
+  
+  #admin-dash{
+  margin-top: 1vh !important;
+  }
+  
+  #content-sidebar{
+    margin-bottom: 4vh !important;
+  /* margin-top: 6vh ; */
+  }
+  
+  
+  
+  
+  @media  (max-width: 780px) {
+  #admin-dash{
+    margin-top: 5vh !important;
+  }
+  /* CSS */
+  
+  }
+  
+  .main-content h2 {
+  color: white;
+  /* margin-top: 20px; */
+  }
+  
+  #footer-fixed{
+  position: fixed;
+  bottom: 0;
+  }
+  
+  
+  
+  
+  
+  /* src/components/DashboardLayout.css */
+  
+  .db {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  }
+  
+  .db-nav {
+  padding: 1rem;
+  background-color: #f8f9fa;
+  }
+  
+  .hom-cus-revi:before{
+    display: none;
+  }
+  
+  #btn{
+    box-shadow: 2px 2px 5px rgb(145, 145, 145);
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin-right: .3vmax;
+  }
+  
+  #icon-size{
+    font-size: 20px !important;
+    padding: 0 !important;
+  }
+  
+  /* .db-nav-pro img {
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  margin-bottom: 1rem;
+  } */
+  
+  .db-nav-list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  }
+  
+  .db-nav-list ul li {
+  margin-bottom: 0.5rem;
+  }
+  
+  .db-nav-list ul li a {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 0.8rem;
+  font-size: 1rem;
+  text-decoration: none;
+  color: #333;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  }
+  
+  .db-nav-list ul li a.active-link,
+  .db-nav-list ul li a:hover {
+  background-color: #007bff;
+  color: #fff;
+  }
+  
+  .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal {
+    background: white ;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    max-width: 400px;
+    width: 80%;
+  }
+  
+  #blue{
+    color: #0D6EFD !important;
+  }
+  
+  #fixed-height{
+    max-height: 80vh;
+  }
+  
+  #fixed-height3{
+    height: 100%;
+    overflow-y: scroll;
+  }
+  
+  #fixed-height2{
+    overflow-y: hidden;
+    height: 80vh;
+  }
+  @media (max-width: 768px) {
+  /* Adjusting for mobile view */
+  .db-nav {
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+  }
+  .db-nav-list ul {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    padding-bottom: 1rem;
+    margin: 0 -1rem;
+  }
+  .db-nav-list ul li {
+    margin: 0 0.5rem;
+  }
+  .db-nav-list ul li a {
+    font-size: 0.875rem;
+    padding: 0.4rem 0.6rem;
+    white-space: nowrap;
+  }
+  .db-nav-pro img {
+    width: 50px;
+    height: 50px;
+  }
+  }
+  
+  .gal-im img.gal-siz-1 {
+  height: 405px !important;
+  }
+  
+  .gal-im img.gal-siz-2 {
+  height: 405px !important;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  /* --------------------------------franchise css------------------- */
+  
+  
+  /* Global Reset */
+  * {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  tbody tr {
+    background-color: white !important;
+    color: black !important;
+  }
+  tbody tr td {
+    /* background-color: white !important; */
+    color: black !important;
+  }
+  
+  .dash{
+    margin-top: 2vmax !important;
+  }
+  
+  .logo{
+    color: rgb(45, 122, 199);
+    font-style: oblique
+  }
+  
+  /* Navbar Container */
+  .menu-button {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+  }
+  
+  #main-sidebar {
+    margin-top: 7.8vh;
+  }
+  
+  
+  
+  
+  
+  .navbar {
+    /* background-image: url("https://national-paints.vercel.app/static/media/admin-background.5e6644918587dd6c222b.png"); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: #fff;
+    color: black !important;
+    padding: 8px 10px;
+    box-shadow: 1px 1px 3px black;
+    /* border-bottom: 2px solid #0A9799; */
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    /* padding: 0px 30px; */
+    align-items: center;
+    width: 100%;
+  }
+  
+  /* Logo */
+  .navbar-logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  /* Center: Welcome Text */
+  .navbar-center {
+    text-align: center;
+    font-size: 1rem;
+  }
+  
+  /* Navbar Right Section */
+  .navbar-right {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .navbar-links {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navbar-links a {
+    text-decoration: none;
+    color: #000 !important;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: color 0.3s ease;
+  }
+
+  .navbar-center p{
+    color: #000 !important;
+    font-weight: 600;
+  }
+  
+  .navbar-links a:hover {
+    color: #ffd600;
+  }
+  
+  /* Profile Dropdown */
+  .profile-dropdown {
+    position: relative;
+  }
+  
+  .profile-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 40px;
+    right: 0;
+    background-color: white;
+    color: #6200ea;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .profile-dropdown:hover .dropdown-menu {
+    display: block;
+  }
+  
+  .dropdown-menu a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #6200ea;
+    transition: background-color 0.3s ease;
+  }
+  
+  .dropdown-menu a:hover {
+    background-color: #6200ea;
+    color: white;
+  }
+  
+  /* Mobile Menu Icon */
+  .menu-icon {
+    font-size: 1.8rem;
+    display: none;
+    cursor: pointer;
+    color: white;
+  
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .navbar-center {
+      display: none;
+    }
+  
+    #main-sidebar {
+      margin-top: 10.8vh;
+    }
+  
+  
+    .menu-icon {
+      /* width: 30%; */
+      display: flex;
+      justify-content: flex-end;
+      display: block;
+    }
+  
+    .navbar-right {
+      position: absolute;
+      top: 60px;
+      right: 0;
+      background-color: #3700b3;
+      flex-direction: column;
+      align-items: flex-start;
+      width: 100%;
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.3s ease-in-out;
+      border-radius: 0 0 5px 5px;
+    }
+  
+    .navbar-right.menu-open {
+      max-height: 300px;
+    }
+  
+    .navbar-links {
+      flex-direction: column;
+      gap: 10px;
+      width: 100%;
+    }
+  
+    .navbar-links a {
+      width: 100%;
+      padding: 10px 20px;
+      text-align: left;
+    }
+  
+    .profile-dropdown {
+      margin: 10px 0;
+      /* width: 100%; */
+    }
+  }
+  
+  #franchise-main{
+    /* height: 100vh; */
+    /* background-color: red !important; */
+    background-image: url("https://skillsikhar.com/user/img/login.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  
+  }
+  
+  
+  
+  
+  
+  
+  /* Sidebar */
+  .sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px; /* Sidebar width */
+    height: 100vh; /* Full height of the viewport */
+    background-color: white ;/* Sidebar background color */
+    overflow-y: auto; /* Enable vertical scrolling when content overflows */
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  
+  .sidebar.collapsed {
+    transform: translateX(-250px);
+  }
+  
+  .toggle-btn {
+    /* display: none; */
+    /* background-color: #6200ea; */
+    color: white;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    width: 40px;
+  }
+  
+  .sidebar nav a {
+    display: block;
+    padding: 10px 20px;
+    font-size: 15px !important;
+    text-decoration: none;
+    color: black;
+    box-shadow: 3px 3px 10px rgb(0, 0, 0, 0.7);
+    background-color: white;
+    margin-top: 0.7vmax !important;
+    width: 90%;
+    margin: auto;
+    font-weight: 700;
+    font-weight: white;
+    border: 2px solid #0A9799;
+    border-radius: 25px;
+  }
+  
+  .sidebar nav a:hover {
+    color: white !important;
+    background-color: #0A9799;
+    font-weight: bold;
+
+  }
+  
+  .main-content {
+    margin-left: 250px;
+    padding: 20px 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .sidebar {
+      transform: translateX(-250px);
+    }
+  
+    .sidebar.open {
+      transform: translateX(0);
+    }
+  
+    .main-content {
+      margin-left: 0;
+    }
+  
+    .toggle-btn {
+      display: initial ;
+      display: block;
+    }
+  }
+  
+  .right{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+  }
+  
+  
+  
+  .dropdown {
+    margin-top: 10px;
+  }
+  
+  .dropdown-menu {
+    /* display: none; */
+    flex-direction: column;
+    padding: 10px;
+    background-color: #495057;
+    border-radius: 5px;
+  }
+  
+  .dropdown.open .dropdown-menu {
+    display: flex;
+  }
+  
+  .dropdown-menu a {
+    padding: 5px 10px;
+    /* color: #fff; */
+    text-decoration: none;
+    margin: 3px 0;
+  }
+  
+  .dropdown-menu a:hover {
+    background-color: #6c757d;
+    border-radius: 5px;
+  }
+  
+  
+  #margin-top{
+    margin-top: 10vh !important;
+  }
+  
+  .das_prof span{
+    color: white;
+  }
+  .das_prof p{
+    color: #4FFC50;
+  }
+  
+  
+  @media  (max-width: 780px) {
+    #margin-top{
+      margin-top: 18vh !important;
+    }
+  }
+  
+  .background{
+    height: auto !important;
+  }
+  
+  
+  
+  
+  .background col{
+    /* height: auto !important; */
+    background-color: #33a1d5 !important;
+  }
+  
+  .front_area {
+    padding: 0px !important;
+  }
+  
+  
+  .our_courses_bg img {
+    border-radius: 15px !important;
+  }
+  
+  
+  
+  /* Ensure FullCalendar is scrollable and fits smaller screens */
+  .fc {
+    font-size: 0.85rem; /* Reduce font size for better mobile fit */
+  }
+  
+  .fc-toolbar {
+    flex-wrap: wrap; /* Wrap toolbar on smaller screens */
+    justify-content: space-between; /* Ensure buttons don't overlap */
+  }
+  
+  .fc-scrollgrid {
+    overflow-x: auto; /* Enable horizontal scrolling for grid */
+  }
+  
+  #kyc-form label{
+    margin-top: .8vmax !important;
+    margin-bottom: 0 !important;
+  }
+  
+  .pot {
+    background: #0d5ef4 !important;
+    border-radius: 10px;
+    color: white;
+  }
+  
+  .seleco {
+    background: #0d5ef4 !important;
+    color: white;
+  }
+  
+  .poe {
+    padding: 10px;
+  }
+  
+  .error {
+    color: red;
+  }
+  
+  
+  
+  /* General styling for the sidebar */
+  .sidebar {
+    margin-top: 7.5vh;
+  
+  
+  }
+  
+  
+  .sidebar.open {
+    z-index: 234567;
+    margin-top: 9.5vh;
+    /* width: 17%; */
+    left: 0;
+  }
+  
+  .sidebar-nav{
+    margin-bottom: 10vh;
+    margin-top: 5vh;
+  }
+  
+  .sidebar-nav a {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  .sidebar-nav a:hover {
+    background-color: #34495e;
+  }
+  
+  .sidebar-nav a i {
+    margin-right: 10px;
+  }
+  
+  
+  
+  
+  .menu-button {
+    display: none !important;
+    position: fixed;
+    /* top: 75px; */
+    right: 0px;
+    z-index: 1100;
+  }
+  
+  .menu-button p{
+    padding: 9px;
+    margin-bottom: 0;
+    font-size: 1.1rem ;
+    font-weight: 500;
+  }
+  .menu-content{
+    /* margin-top: x.7vmax; */
+    margin-bottom: .7vmax;
+    gap: 10px;
+    width: 100vw;
+    /* justify-content: end; */
+    display:flex;
+  }
+  
+  
+  @media(max-width: 780px) {
+    .menu-button {
+      display: initial !important;
+    }
+  
+  }
+  
+  .toggle-btn {
+    /* background: #34495e; */
+    /* color: white; */
+    border: none;
+    font-size: 20px;
+    /* padding: 10px 15px; */
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .toggle-btn:focus {
+    outline: none;
+  }
+  
+  .backdrop {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 900;
+  }
+  
+  .backdrop.visible {
+    display: block;
+  }
+  
+  
+  
+  @media (min-width: 768px) {
+    .menu-button {
+      display: none;
+    }
+  
+    .sidebar {
+      left: 0;
+    }
+  
+    .backdrop {
+      display: none;
+    }
+  }
+  
+  .objectss {
+    border-radius: 8px;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    padding: 15px;
+    height: 200px;
+    overflow: hidden;
+  }
+  
+  #profile-text p{
+    color: white !important;
+  }
+  
+  #profile-text span{
+    color: white !important;
+  }
+  
+  
+  
+  #dropping{
+    display: flex;
+    justify-content: center;
+  }
+  
+  
+  .dropdown.open .dropdown-menu {
+    margin-top: 15px  !important;
+    margin-bottom: 15px !important;
+    /* height: 100% !important; */
+    width: 100% !important;
+  }
+  
+  button, input, optgroup, select, textarea {
+    margin: auto;
+    padding: 10px;
+    margin: auto;
+    /* width: 90%; */
+    border-radius: 10px !important;
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+  }
+  
+  .card-header{
+    background: none !important;
+  }
+  
+  
+  .back_area{
+    padding: 0px !important;
+  }
+  
+  .menu-icon span{
+    color: white !important;
+  }
+  
+  /* ------------User panel css--------------- */
+  .db-new-pro-main ul li {
+    float: left;
+    width: 100% !important;
+    position: relative;
+    display: flex
+  ;
+  }
+  
+  
+  
+  .sidebar-content {
+    padding-top: 60px;
+    height: 100vh;
+    overflow: none !important;
+  }
+  
+  #table-margin-top {
+    margin-top: 0px !important;
+  }
+  
+  .text-highlight{
+    color: black;
+    font-style: italic;
+    text-shadow: 2px 2px 2px rgb(180, 174, 174);
+  }
